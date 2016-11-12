@@ -21,8 +21,9 @@ First of all, you need to install Docker. Instructions can be found here: https:
 Then, you need to clone the project, create .war file and deploy it using an Apache Tomcat container.
 
 ```
+cd ~
 git clone git@github.com:kstromeiraos/vicleo.git
-cd /vicleo
+cd ~/vicleo
 jar -cvf vicleo.war *  
 docker build -t "vicleo" .
 docker run -d --name vicleo -p 80:8080 vicleo
