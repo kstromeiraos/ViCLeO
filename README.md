@@ -32,4 +32,4 @@ After that, VICLEO will be running in localhost.
 
 ## Demo
 
-vicleo.es
+http://vicleo.es
