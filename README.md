@@ -18,8 +18,14 @@ VICLEO uses Docker to simplify deployment process.
 
 First of all, you need to install Docker. Instructions can be found here: https://docs.docker.com/engine/installation/
 
-Then, you need to clone the project, create .war file and deploy it using an Apache Tomcat container.
+Then, you can pull it directly from Docker Hub (reccomended) or build it from Dockerfile.
 
+#### Pull from Docker Hub
+```
+docker run -d --name vicleo -p 80:8080 vicleo
+```
+
+#### Build from Dockerfile
 ```
 cd ~
 git clone git@github.com:kstromeiraos/vicleo.git
@@ -29,7 +35,7 @@ docker build -t "vicleo" .
 docker run -d --name vicleo -p 80:8080 vicleo
 ```
 
-After that, VICLEO will be running in localhost.
+After this, VICLEO will be running in localhost.
 
 ## Demo
 
