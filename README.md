@@ -18,11 +18,11 @@ VICLEO uses Docker to simplify deployment process.
 
 First of all, you need to install Docker. Instructions can be found here: https://docs.docker.com/engine/installation/
 
-Then, you can pull it directly from Docker Hub (reccomended) or build it from Dockerfile.
+Then, you can pull it directly from Docker Hub (recommended) or build it from Dockerfile.
 
 #### Pull from Docker Hub
 ```
-docker run -d --name vicleo -p 80:8080 vicleo
+docker run -d --name vicleo -p 80:8080 kstromeiraos/vicleo
 ```
 
 #### Build from Dockerfile
