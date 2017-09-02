@@ -36,7 +36,3 @@ docker run -d --name vicleo -p 80:8080 vicleo
 ```
 
 After this, VICLEO will be running in localhost.
-
-## Demo
-
-http://vicleo.es
