@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-VICLEO does an automatic analysis of the lexic field of sentences using Wordnet. VICLEO obtains the sense of the terms automatically, applies similarity measures (Path Length, Wu & Palmer and Leakcock & Chodorow) between terms and shows the results to the users interactively.
+VICLEO does an automatic analysis of the lexical field of sentences using Wordnet. VICLEO obtains the sense of the terms automatically, applies similarity measures (Path Length, Wu & Palmer and Leakcock & Chodorow) between terms and shows the results to the users interactively.
 
 Back-end uses Apache OpenNLP to do the tokenization and classification of sentence terms. WordNet is the source used to obtain information of the sentence terms. JAWS is the API used to get WordNet information.
 
